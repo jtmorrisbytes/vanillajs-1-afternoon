@@ -1,36 +1,50 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  nav {
-      height: 15vh;
-      background: #444;
-      color: #DDD;
-  }
+nav {
+  height: 15vh;
+  background: #444;
+  color: #ddd;
+}
 
-  main {
-      background: #EEE;
-      height: 85vh;
-  }
+main {
+  background: #eee;
+  height: 85vh;
+}
 
-  table,
-  section,
-  nav {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
+table,
+section,
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  table {
-      padding-top: 5vh;
-  }
+table {
+  padding-top: 5vh;
+}
 
 .row td {
-    height: 120px;
-    width: 120px;
-    border: 1px solid #000;
-    text-align: center;
-    font-size: 2em;
+  height: 120px;
+  width: 120px;
+  border: 1px solid #000;
+  text-align: center;
+  font-size: 2em;
+}
+.row td .circle,
+.row td .cross {
+  width: auto;
+  height: 90%;
+  margin: 5%;
+}
+.row td .circle {
+  border: 0.5em solid black;
+  border-radius: 50%;
+}
+.row td .cross {
+  background-image: url("cross.svg");
+  background-size: auto;
 }
