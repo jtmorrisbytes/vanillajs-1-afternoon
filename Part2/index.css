@@ -53,3 +53,32 @@ section span:nth-of-type(3) {
   width: 100px;
   border: 1px solid #000;
 }
+/* User added styles */
+
+div.controls {
+  max-width: 960px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+div#card-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#card-inputs input {
+  width: 100%;
+  height: 50px;
+  font-size: 105%;
+}
+.controls button {
+  width: 49.65%;
+  height: 50px;
+  font-size: 200%;
+  margin: 0;
+}
+@media screen and (min-width: 500px) {
+  div#card-inputs {
+    flex-direction: row;
+  }
+}
